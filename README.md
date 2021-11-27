@@ -1,3 +1,3 @@
-# yo-taiwan
+# yo-bus
 
 [The F2E](https://2021.thef2e.com/) group project.
