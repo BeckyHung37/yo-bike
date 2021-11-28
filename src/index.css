@@ -34,14 +34,14 @@
   text-decoration: none;
   position: relative;
 }
-.wave_yellow_long {
-  position: absolute;
-  top: 30px;
-  right: 5px;
-  display: none;
-}
 .menu_rentbike:hover {
   color: #ffd77c;
+}
+.menu_rentbike:hover::after {
+  content: url(./images/icon/wave_yellow_long.png);
+  position: absolute;
+  top: 20px;
+  right: 0;
 }
 
 .menu_routeinfo {
@@ -49,14 +49,14 @@
   text-decoration: none;
   position: relative;
 }
-.wave_yellow {
-  position: absolute;
-  top: 30px;
-  right: 5px;
-  display: none;
-}
 .menu_routeinfo:hover {
   color: #ffd77c;
+}
+.menu_routeinfo:hover::after {
+  content: url(./images/icon/wave_yellow.png);
+  position: absolute;
+  top: 20px;
+  right: 0;
 }
 
 .menu_landscape {
@@ -67,11 +67,11 @@
 .menu_landscape:hover {
   color: #ffd77c;
 }
-.wave_yellow {
+.menu_landscape:hover::after {
+  content: url(./images/icon/wave_yellow.png);
   position: absolute;
-  top: 30px;
-  right: 5px;
-  display: none;
+  top: 20px;
+  right: 0;
 }
 
 .btn_callforaction {
@@ -158,6 +158,9 @@
   padding-left: 20px;
   padding-right: 38px;
   color: #737b7d;
+}
+.search_field_input:focus{
+  outline: none;
 }
 .search_field_input::placeholder {
   color: #a0a5aa;
