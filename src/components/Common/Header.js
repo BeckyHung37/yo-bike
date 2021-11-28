@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header_container">
-        <Link to="/">{getYoBikeLogoIcon()}</Link>
+          <Link to="/" style={{width:'181px'}}>{getYoBikeLogoIcon()}</Link>
         <div className="nav_menu">
           <Link to="/" className="menu_rentbike">
             租/還車即時資訊
@@ -30,7 +30,7 @@ const Header = () => {
             rel="noreferrer"
             className="menu_landscape"
           >
-            觀光景點
+            觀光資訊
             <img
               className="wave_yellow"
               src="./static/icon/wave_yellow.png"
